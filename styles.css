@@ -27,6 +27,8 @@
   position: absolute;
   left: 5.15vw;
   top: 85px;
+  /* margin: 0 0 80px 0; */
+  /* background-color: rgb(164, 201, 121); Delete */
 }
 
 
@@ -178,10 +180,16 @@ nav {
   background-image: url(./Img/image_2.png);
 }
 .flex-2a .flexbox-img {
-  background-image: url(./Img/image_3.png);
+  background-image: linear-gradient(
+    rgba(81, 84, 87, 0.323),
+    rgba(81, 84, 87, 0.316)
+  ), url(./Img/image_3.png);
 }
 .flex-2b .flexbox-img {
-  background-image: url(./Img/image_4.jpg);
+  background-image: linear-gradient(
+    rgba(81, 84, 87, 0.323),
+    rgba(81, 84, 87, 0.316)
+  ), url(./Img/image_4.jpg);
 }
 
 /* .flex-1a.flex-2b{
@@ -338,35 +346,35 @@ nav {
       rgba(81, 84, 87, 0.6),
       rgba(81, 84, 87, 0.6)
     ),
-    url(/Img/more_1.jpeg);
+    url(./Img/more_1.jpeg);
 }
 .img_2 {
   background-image: linear-gradient(
       rgba(81, 84, 87, 0.6),
       rgba(81, 84, 87, 0.6)
     ),
-    url(/Img/more_2.jpeg);
+    url(./Img/more_2.jpeg);
 }
 .img_3 {
   background-image: linear-gradient(
       rgba(81, 84, 87, 0.6),
       rgba(81, 84, 87, 0.6)
     ),
-    url(/Img/more_3.jpg);
+    url(./Img/more_3.jpg);
 }
 .img_4 {
   background-image: linear-gradient(
       rgba(81, 84, 87, 0.6),
       rgba(81, 84, 87, 0.6)
     ),
-    url(/Img/more_4.jpeg);
+    url(./Img/more_4.jpeg);
 }
 .img_5 {
   background-image: linear-gradient(
       rgba(81, 84, 87, 0.6),
       rgba(81, 84, 87, 0.6)
     ),
-    url(/Img/more_5.png);
+    url(./Img/more_5.png);
 }
 
 footer{
@@ -579,3 +587,4 @@ figure {
    padding: 10px;
 }
 } 
+
